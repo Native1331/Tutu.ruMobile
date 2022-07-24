@@ -78,7 +78,7 @@ test
 
 ## 	:iphone: Отчет в Telegram
 
- ![This is an image](design/pictures/telegram.jpeg)
+ ![This is an image](design/pictures/Telegram.jpeg)
 
 
 ## :movie_camera: Видео примеры прохождения тестов
