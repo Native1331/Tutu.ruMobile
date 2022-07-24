@@ -46,7 +46,6 @@ public class TutuMobileTests extends TestBase {
             $(AppiumBy.id("ru.tutu.tutu_emp:id/image_bus")).click();
             $(AppiumBy.id("ru.tutu.tutu_emp:id/progress_button_layout")).click();
             $(AppiumBy.id("ru.tutu.tutu_emp:id/tvTitle")).shouldHave(text("Moscow — Simferopol"));
-
         });
     }
 }
