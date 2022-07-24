@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования мобильного приложения Tutu.ru, покупка билетов всех видов транспорта	:star2:
 ## <a target="_blank" href="https://www.tutu.ru//">На данном сайте есть ссылка на мобильное приложение Tutu.ru </a> 
 
-![This is an image](design/pictures/tuturu.png)	
+![This is an image](design/pictures/Tuturu.png)	
 
 ## :clipboard:: Содержание:
 
@@ -21,10 +21,10 @@
 
 ## 	:heavy_check_mark: Реализованные проверки</br>
 Наличие разделов на главной странице</br>
-Поиск билетов из Москвы в Симферополь
-Поиск авиабилетов
-Поиск билетов на поезд
-Поиск билетов на автобус
+Поиск билетов из Москвы в Симферополь</br>
+Поиск авиабилетов</br>
+Поиск билетов на поезд</br>
+Поиск билетов на автобус</br>
 "</br>
 
 ## :clipboard: Сборка в Jenkins
@@ -59,16 +59,16 @@ test
 
 - ### Страница с проведенными тестами
 
-![This is an image](design/pictures/allure1.jpeg)
+![This is an image](design/pictures/allur1.jpeg)
 
 ## :bar_chart: Интеграция с Allure TestOps
 - ### Экран с результатами запуска тестов
                                                                             
-![This is an image](design/pictures/allureTestsOp.jpeg)
+![This is an image](design/pictures/allureTestsOps.jpeg)
 
 - ### Страница с тестами в TestOps
 
-![This is an image](design/pictures/AllureTestOps.jpeg)
+![This is an image](design/pictures/allureTestOps1.jpeg)
                                                                             
 ## :chart_with_upwards_trend:	 Интеграция с Jira
 - ### Страница с задачей в Jira
