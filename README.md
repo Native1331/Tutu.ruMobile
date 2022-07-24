@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования мобильного приложения Tutu.ru, покупка билетов всех видов транспорта	:star2:
-## <a target="_blank" href="https://www.tutu.ru//">Веб сайт Tutu.ru </a>
+## <a target="_blank" href="https://www.tutu.ru//">На данном сайте есть ссылка на мобильное приложение Tutu.ru </a> 
 
 ![This is an image](design/pictures/hh.jpeg)	
 
@@ -19,21 +19,6 @@
                                                                                                         
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/Selenoid.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)![This is an image](/design/icons/Jira.png)</br>
 
-В данном проекте автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
-
- В качестве библиотеки для модульного тестирования используется <code>JUnit 5</code>.
- 
- Для автоматизированной сборки проекта используется <code>Gradle</code>.
- 
- <code>Selenoid</code> выполняет запуск браузеров в контейнерах <code>Docker</code>.
-
- <code>Allure Report</code> формирует отчет о запуске тестов.
-
- <code>Jenkins</code> выполняет запуск тестов.
- 
- После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>.
-
-
 ## 	:heavy_check_mark: Реализованные проверки</br>
 Наличия раздела "Сервисы для соискателей" на главной странице</br>
 Выбора города (на примере Санкт-Петербурга)</br>
@@ -50,22 +35,21 @@
 ###  :clipboard: Параметры сборки в Jenkins:
 Сборка в Jenkins
 
-- необходимо добавить файл credentials.properties (содержащий в себе логины и пароли, пример в папке resources)
+- необходимо добавить файл browserstar.properties  и local.properties(содержащий в себе логины и пароли, отдельно для разных видов запуска, пример в папке resources)
 
 ## :computer: Запуск из терминала
 Локальный запуск:
 ```
-gradle clean test
+gradle clean test -Dhost=local
+
 ```
 
 Удаленный запуск:
 ```
 clean
 test
--Dbrowser=${BROWSER}
--Dsize=${BROWSER_SIZE}
+ -Dhost=browserstack
 ```
-
 ## :chart_with_downwards_trend: Allure отчет
 - ### Главный экран отчета
 
