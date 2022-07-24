@@ -20,11 +20,12 @@
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/Selenoid.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)![This is an image](/design/icons/Jira.png)</br>
 
 ## 	:heavy_check_mark: Реализованные проверки</br>
-Наличия раздела "Сервисы для соискателей" на главной странице</br>
-Выбора города (на примере Санкт-Петербурга)</br>
-Поиск вакансий "Тестировщик"</br>
-Поиск вакансии "Тестировщик" в городе Санкт-Петербург</br>
-Поиск и переход на страницу статьи "Что такое сильные стороны и как их определить?"</br>
+Наличие разделов на главной странице</br>
+Поиск билетов из Москвы в Симферополь
+Поиск авиабилетов
+Поиск билетов на поезд
+Поиск билетов на автобус
+"</br>
 
 ## :clipboard: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-1024/">Сборка в Jenkins</a>
