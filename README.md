@@ -84,7 +84,10 @@ test
 ## :movie_camera: Видео примеры прохождения тестов
 
 
-https://user-images.githubusercontent.com/83497921/169890250-97fef0ce-e046-4e11-ad2f-823873ced6b7.mp4
+
+
+https://user-images.githubusercontent.com/83497921/180654317-2ab4ad67-86e2-4c30-b066-f64c4b513eaf.mp4
+
 
 
 
