@@ -30,7 +30,7 @@
 ## :clipboard: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
 
-![This is an image](design/pictures/jenkins.jpeg)
+![This is an image](design/pictures/Jenkins.jpeg)
 
 
 ###  :clipboard: Параметры сборки в Jenkins:
