@@ -16,7 +16,7 @@
 - <a href="#iphone-отчет-в-telegram">Отчет в Telegram</a>
 - <a href="#movie_camera-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
 
-## :trophy:Технологии и инструменты
+## :trophy:Технологии и инструменты</br>
                                                                                                         
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/Selenoid.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)![This is an image](/design/icons/Jira.png) ![This is an image](/design/icons/appium.png)  ![This is an image](/design/icons/androidstudio.png)</br>
 
@@ -28,13 +28,13 @@
 Поиск билетов на автобус</br>
 "</br>
 
-## :clipboard_mark: Сборка в Jenkins
-### <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
+##  :clipboard_mark: Сборка в Jenkins</br>
+ <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
 
 ![This is an image](design/pictures/Jenkins.jpeg)
 
 
-###  :clipboard: Параметры сборки в Jenkins:
+##  :clipboard:  Параметры сборки в Jenkins:
 Сборка в Jenkins
 
 - необходимо добавить файл browserstar.properties  и local.properties(содержащий в себе логины и пароли, отдельно для разных видов запуска, пример в папке resources)
