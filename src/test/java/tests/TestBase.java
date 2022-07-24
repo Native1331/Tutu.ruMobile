@@ -16,24 +16,24 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
 import static helpers.Attach.sessionId;
 import static io.qameta.allure.Allure.step;
+
 public class TestBase {
+    static String deviceHost = System.getProperty("devicehost", "browserstackHost");
+
     @BeforeAll
     public static void setup() {
-  /**      String deviceHost = System.setProperty("devicehost", "browserstackHost");
+
         if (Objects.equals(deviceHost, "browserstackHost")) {
             Configuration.browser = BrowserstackMobileDriver.class.getName();
             Configuration.browserSize = null;
-        } else if (Objects.equals(deviceHost, "localHost")) {
+        } else {
             Configuration.browser = LocalMobileDriver.class.getName();
             Configuration.browserSize = null;
+            }
         }
-    }**/
-    Configuration.browser = BrowserstackMobileDriver.class.getName();
-   Configuration.browserSize = null;
 
-   //       Configuration.browser = LocalMobileDriver.class.getName();
-    //      Configuration.browserSize = null;
-    }
+
+
     @BeforeEach
     public void startDriver() {
         addListener("AllureSelenide", new AllureSelenide());
@@ -47,9 +47,10 @@ public class TestBase {
         Attach.pageSource();
         step("Close driver", Selenide::closeWebDriver);
         Attach.video(sessionId);
-        if (Objects.equals("deviceHost", "browserstackHost")) {
+        if (Objects.equals("deviceHost", "localHost")) {
             Attach.video(sessionId);
         }
     }
 }
+
 
