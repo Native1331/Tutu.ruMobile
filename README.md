@@ -28,7 +28,7 @@
 Поиск билетов на автобус</br>
 "</br>
 
-## :clipboard: Сборка в Jenkins
+## :clipboard_mark: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
 
 ![This is an image](design/pictures/Jenkins.jpeg)
