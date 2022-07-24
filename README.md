@@ -73,7 +73,7 @@ test
 ## :chart_with_upwards_trend:	 Интеграция с Jira
 - ### Страница с задачей в Jira
                                                                                 
- ![This is an image](design/pictures/jira.jpeg)
+ ![This is an image](design/pictures/Jira.jpeg)
 
 
 ## 	:iphone: Отчет в Telegram
