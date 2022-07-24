@@ -1,7 +1,8 @@
 # Проект по автоматизации тестирования мобильного приложения Tutu.ru, покупка билетов всех видов транспорта	:star2:
 ## <a target="_blank" href="https://www.tutu.ru//">На данном сайте есть ссылка на мобильное приложение Tutu.ru </a> 
-Сделано с помощью сайта автоматизации мобильных приложений "Browserstack"
-![This is an image](design/pictures/tuturu.jpeg)	
+<h3>Сделано с помощью сайта автоматизации мобильных приложений "Browserstack"<h3></br>
+ 
+  ![This is an image](design/pictures/tuturu.jpeg)	
 
 ## :clipboard:: Содержание:
 
