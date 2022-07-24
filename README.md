@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования мобильного приложения Tutu.ru, покупка билетов всех видов транспорта	:star2:
 ## <a target="_blank" href="https://www.tutu.ru//">На данном сайте есть ссылка на мобильное приложение Tutu.ru </a> 
 
-![This is an image](design/pictures/hh.jpeg)	
+![This is an image](design/pictures/tuturu.png)	
 
 ## :clipboard:: Содержание:
 
@@ -17,7 +17,7 @@
 
 ## :trophy:Технологии и инструменты
                                                                                                         
-![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/Selenoid.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)![This is an image](/design/icons/Jira.png)</br>
+![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/Selenide.png)![This is an image](/design/icons/Selenoid.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)![This is an image](/design/icons/Jira.png) ![This is an image](/design/icons/appium.png)  ![This is an image](/design/icons/androidstudio.png)</br>
 
 ## 	:heavy_check_mark: Реализованные проверки</br>
 Наличие разделов на главной странице</br>
@@ -28,7 +28,7 @@
 "</br>
 
 ## :clipboard: Сборка в Jenkins
-### <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-1024/">Сборка в Jenkins</a>
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
 
 ![This is an image](design/pictures/jenkins.jpeg)
 
