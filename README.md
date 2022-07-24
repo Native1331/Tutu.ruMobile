@@ -64,7 +64,7 @@ test
 ## :bar_chart: Интеграция с Allure TestOps
 - ### Экран с результатами запуска тестов
                                                                             
-![This is an image](design/pictures/allureTestsOps.jpeg)
+![This is an image](design/pictures/allureTestOps.jpeg)
 
 - ### Страница с тестами в TestOps
 
