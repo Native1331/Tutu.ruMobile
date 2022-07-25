@@ -20,7 +20,3 @@ public interface BrowstackConfig extends Config {
     String osVersion();
     String baseUrl();
 }
-
-
-
-
