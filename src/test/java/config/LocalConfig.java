@@ -17,7 +17,3 @@ public interface LocalConfig extends Config {
     @DefaultValue("Android")
     String platformName();
 }
-
-
-
-
