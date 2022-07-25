@@ -32,8 +32,6 @@ public class TestBase {
             }
         }
 
-
-
     @BeforeEach
     public void startDriver() {
         addListener("AllureSelenide", new AllureSelenide());
@@ -52,5 +50,3 @@ public class TestBase {
         }
     }
 }
-
-
