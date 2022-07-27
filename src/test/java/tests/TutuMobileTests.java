@@ -17,7 +17,11 @@ public class TutuMobileTests extends TestBase {
             $(AppiumBy.id("ru.tutu.tutu_emp:id/contRoot")).click();
             $(AppiumBy.id("ru.tutu.tutu_emp:id/vLayerTopGradient")).shouldBe(visible);
         });
-
+        
+        @Test
+        
+        
+        
         step("FindTickets", () -> {
             $(AppiumBy.id("ru.tutu.tutu_emp:id/buttonHintTextView")).click();
             $$(AppiumBy.className("android.view.ViewGroup")).get(2).click();
