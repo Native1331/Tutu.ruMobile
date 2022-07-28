@@ -26,7 +26,7 @@
 Поиск авиабилетов</br>
 Поиск билетов на поезд</br>
 Поиск билетов на автобус</br>
-"</br>
+</br>
 
 ##  :clipboard:: Сборка в Jenkins</br>
  <a target="_blank" href="https://jenkins.autotests.cloud/job/Tutu.ruMobile/">Сборка в Jenkins</a>
