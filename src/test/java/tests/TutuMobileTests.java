@@ -36,7 +36,6 @@ public class FindDifferentTicketsTests extends TestBase {
             $(AppiumBy.id("ru.tutu.tutu_emp:id/tvTitle")).shouldHave(text("Moscow — Simferopol"));
         });
         
-   
         
   @Test
     void FindFlightTickets() {
